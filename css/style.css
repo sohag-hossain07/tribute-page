@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  color: #393939;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  padding: 2rem;
+}
+
+#title,
+#sub-title {
+  text-align: center;
+}
+
+#title {
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+#sub-title {
+  font-family: "Fira Code", sans-serif;
+  margin-bottom: 1.5rem;
+}
+
+#main {
+  width: 100%;
+  max-width: 1400px;
+  margin: auto;
+  padding: 1rem;
+  background-color: #eee;
+  color: rgb(34, 33, 33);
+}
+
+#img-div,
+#img-div img {
+  border-radius: 5px;
+}
+
+#img-div img {
+  width: 100%;
+  overflow: hidden;
+}
+
+figure {
+  background-color: #fff;
+  padding: 0.5rem;
+}
+
+figcaption {
+  font-family: "Fira Code", sans-serif;
+  letter-spacing: -1.5px;
+  word-spacing: -2px;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+fieldset {
+  width: 90%;
+  max-width: 600px;
+  margin: auto;
+  padding: 3rem 2rem;
+  border: none;
+}
+
+#description-title {
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  text-align: center;
+  padding: 0 0 2.5rem;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.list-item {
+  margin: 1rem 0;
+}
+
+::marker {
+  font-size: 1.3rem;
+}
+
+#blockquote {
+  width: 90%;
+  max-width: 600px;
+  font-style: italic;
+  margin: auto;
+}
+
+footer > p {
+  width: 90%;
+  font-weight: 600;
+  text-align: center;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+/* responsive css */
+/* small screen */
+@media screen and (max-width: 575px) {
+  body {
+    padding: 1rem;
+  }
+
+  #title {
+    font-size: 2rem;
+  }
+
+  fieldset {
+    min-width: 210px;
+    padding: 2rem 1rem;
+  }
+}
+
+/*
+font-family: fira code, fira sans, fancy slider, cursive, satisfy, monospace, open sans, rubik, poppins, fantasy;
+*/
